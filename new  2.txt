@@ -1,0 +1,40 @@
+
+input
+----------
+<M id=987 >
+<ashok></ashok>
+</M>
+
+output
+--------
+
+<root>
+<id>987</id>
+<ashok></ashok>
+</root>
+
+--------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://www.unece.org/cefact/namespaces/Envelope">
+ <root>
+  <ashok></ashok>
+ </root>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://www.unece.org/cefact/namespaces/Envelope">
+ <root>
+  <id>987</id>
+  <ashok></ashok>
+ </root>
+</soapenv:Envelope>
+-----------------------------------------------------------------
+getNode-MQinput
+-----------
+<emp><ename>Preeti</ename><enum>2870</enum></emp>
+
+MQGET
+------
+<edet><sal>455666</sal></edet>
+
+o/p
+----
+<emp><ename>Preeti</ename><enum>2870</enum><sal>455666</sal></emp>
