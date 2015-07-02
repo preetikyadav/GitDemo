@@ -1,0 +1,18 @@
+Develop a POC for EMPDETAILS consisting of ID and NAME and to obtain  the concatenation of both the ID and NAME by using Aggregration node concept
+Input
+----
+< EMPDETAILS>
+<ID>
+xxx
+</ID>
+<NAME>
+yyy
+</NAME>
+< /EMPDETAILS>
+
+OUTPUT
+-----
+<RESULT>
+xxxyyy
+</RESULT>
+
